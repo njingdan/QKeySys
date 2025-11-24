@@ -37,14 +37,6 @@
   - app/: main.c
 
 ## 构建
-### Linux（GCC）
-```bash
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-cmake --build . -j
-./qkeysys_app --role=A --run-seconds=10   # 或 --role=B
-```
-
 ### Windows（MinGW）
 在 MinGW 环境中：
 ```bash
@@ -57,28 +49,16 @@ cmake --build . -j
 ### 快速构建（无 CMake）
 - Windows（MinGW）：
 ```bash
-gcc -std=c11 -O2 -Wall -Wextra -DQKS_OS_WINDOWS -Iinclude \
-  src/app/main.c \
-  src/core/config.c src/core/log.c src/core/os.c src/core/queue.c src/core/scheduler.c src/core/exec.c src/core/init_master.c src/core/init_slave.c src/core/inject.c \
-  src/comm/zigbee/zigbee.c src/comm/usrp/usrp.c \
-  src/modules/auth/auth.c src/modules/keypool/keypool.c src/modules/clocksync/clocksync.c src/modules/crypto/crypto.c \
-  src/modules/keydist/keydist.c \
-  src/threads/scheduler_thread.c src/threads/init_master_mgr.c src/threads/zigbee_listener.c src/threads/clock_thread.c src/threads/storage_listener.c src/threads/threads_all.c \
-  src/sim/injector.c \
+gcc -std=c11 -O2 -Wall -Wextra -DQKS_OS_WINDOWS -Iinclude `
+  src/app/main.c `
+  src/core/config.c src/core/log.c src/core/os.c src/core/queue.c src/core/scheduler.c src/core/exec.c src/core/init_master.c src/core/init_slave.c src/core/inject.c `
+  src/comm/zigbee/zigbee.c src/comm/usrp/usrp.c `
+  src/modules/auth/auth.c src/modules/keypool/keypool.c src/modules/clocksync/clocksync.c src/modules/crypto/crypto.c `
+  src/modules/keydist/keydist.c `
+  src/threads/scheduler_thread.c src/threads/init_master_mgr.c src/threads/zigbee_listener.c src/threads/clock_thread.c src/threads/storage_listener.c src/threads/threads_all.c `
+  src/sim/injector.c `
   -o build/qkeysys_app.exe
-```
 
-- Linux（GCC）：
-```bash
-mkdir -p build && gcc -std=c11 -O2 -Wall -Wextra -DQKS_OS_POSIX -Iinclude \
-  src/app/main.c \
-  src/core/config.c src/core/log.c src/core/os.c src/core/queue.c src/core/scheduler.c src/core/exec.c src/core/init_master.c src/core/init_slave.c src/core/inject.c \
-  src/comm/zigbee/zigbee.c src/comm/usrp/usrp.c \
-  src/modules/auth/auth.c src/modules/keypool/keypool.c src/modules/clocksync/clocksync.c src/modules/crypto/crypto.c \
-  src/modules/keydist/keydist.c \
-  src/threads/scheduler_thread.c src/threads/init_master_mgr.c src/threads/zigbee_listener.c src/threads/clock_thread.c src/threads/storage_listener.c src/threads/threads_all.c \
-  src/sim/injector.c \
-  -lpthread -o build/qkeysys_app
 ```
 
 ## 运行说明
@@ -93,11 +73,6 @@ mkdir -p build && gcc -std=c11 -O2 -Wall -Wextra -DQKS_OS_POSIX -Iinclude \
 - B 侧（开启模拟，观察 10 秒）：
 ```bash
 ./qkeysys_app.exe --role=B --sim=on --run-seconds=10
-```
-
-- Linux 可执行示例：
-```bash
-./qkeysys_app --role=A --sim=on --run-seconds=10
 ```
 
 关键中文打印示例：
