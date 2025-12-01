@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "keymanager.h": "c",
+        "keyinfo.h": "c",
+        "keypool.h": "c"
+    }
+
+}

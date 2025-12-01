@@ -1,0 +1,5 @@
+D:/deskcopy/SEU docs/project/raspberry/QKeySys/build/CMakeFiles/qkeysys.dir
+D:/deskcopy/SEU docs/project/raspberry/QKeySys/build/CMakeFiles/qkeysys_app.dir
+D:/deskcopy/SEU docs/project/raspberry/QKeySys/build/CMakeFiles/qkeysys_test.dir
+D:/deskcopy/SEU docs/project/raspberry/QKeySys/build/CMakeFiles/edit_cache.dir
+D:/deskcopy/SEU docs/project/raspberry/QKeySys/build/CMakeFiles/rebuild_cache.dir
