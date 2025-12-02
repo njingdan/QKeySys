@@ -4,37 +4,21 @@ project(QKeySys C)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
-add_library(qkeysys
-    src/core/config.c
-    src/core/log.c
-    src/core/os.c
-    src/core/queue.c
-    src/core/scheduler.c
-    src/core/exec.c
-    src/core/init_master.c
-    src/core/init_slave.c
-    src/core/inject.c
-    src/comm/zigbee/zigbee.c
-    src/comm/usrp/usrp.c
-    src/modules/auth/auth.c
-    src/modules/keypool/keypool.c
-    src/modules/clocksync/clocksync.c
-    src/modules/crypto/crypto.c
-    src/modules/keydist/keydist.c
-    src/threads/scheduler_thread.c
-    src/threads/init_master_mgr.c
-    src/threads/zigbee_listener.c
-    src/threads/clock_thread.c
-    src/threads/storage_listener.c
-    src/threads/threads_all.c
-    src/sim/injector.c
-
-    src/modules/keypool/GatewayComm.c
-    src/modules/keypool/KeyConfig.c
-    src/modules/keypool/KeyInfo.c
-    src/modules/keypool/KeyManager.c
-    src/modules/keypool/NTPClient.c
+# -------------------------- 自动收集所有 .c 源文件 --------------------------
+# GLOB_RECURSE：递归查找指定目录下的所有匹配文件
+# CONFIGURE_DEPENDS：当文件添加/删除时，CMake 会自动重新配置（需 CMake 3.12+）
+file(GLOB_RECURSE QKEYSYS_SOURCES
+    CONFIGURE_DEPENDS  # 关键：支持文件变动自动更新
+    "src/*.c"          # 递归收集 src/ 下所有 .c 文件
 )
+
+# 可选：如果有需要排除的文件（比如某些不需要编译的示例文件），可以用 list(FILTER)
+# 示例：排除 src/sim/ 目录下的文件（如果不需要的话）
+# list(FILTER QKEYSYS_SOURCES EXCLUDE REGEX "src/sim/.*\\.c$")
+
+# -------------------------- 核心库目标 --------------------------
+add_library(qkeysys ${QKEYSYS_SOURCES})
+
 
 target_include_directories(qkeysys PUBLIC include include/modules/keypool)
 
@@ -59,8 +43,3 @@ add_executable(qkeysys_test
 # 测试目标链接核心库（获取所有模块功能，包括你的密钥管理器）
 target_link_libraries(qkeysys_test PRIVATE qkeysys)
 
-# 给测试目标添加头文件路径（确保能找到所有头文件）
-target_include_directories(qkeysys_test PUBLIC 
-    include 
-    include/modules/keypool  # 确保能找到师姐的 keypool.h
-)

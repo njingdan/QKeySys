@@ -112,6 +112,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P "D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles\VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
@@ -159,6 +160,7 @@ src/app/main.obj: src/app/main.c.obj
 
 # target to build an object file
 src/app/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qkeysys.dir\build.make CMakeFiles/qkeysys.dir/src/app/main.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qkeysys_app.dir\build.make CMakeFiles/qkeysys_app.dir/src/app/main.c.obj
 .PHONY : src/app/main.c.obj
 
@@ -167,6 +169,7 @@ src/app/main.i: src/app/main.c.i
 
 # target to preprocess a source file
 src/app/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qkeysys.dir\build.make CMakeFiles/qkeysys.dir/src/app/main.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qkeysys_app.dir\build.make CMakeFiles/qkeysys_app.dir/src/app/main.c.i
 .PHONY : src/app/main.c.i
 
@@ -175,6 +178,7 @@ src/app/main.s: src/app/main.c.s
 
 # target to generate assembly for a file
 src/app/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qkeysys.dir\build.make CMakeFiles/qkeysys.dir/src/app/main.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qkeysys_app.dir\build.make CMakeFiles/qkeysys_app.dir/src/app/main.c.s
 .PHONY : src/app/main.c.s
 
@@ -986,6 +990,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P "D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles\VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

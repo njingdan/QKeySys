@@ -71,11 +71,56 @@ include CMakeFiles/qkeysys.dir/flags.make
 CMakeFiles/qkeysys.dir/codegen:
 .PHONY : CMakeFiles/qkeysys.dir/codegen
 
+CMakeFiles/qkeysys.dir/src/app/main.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/app/main.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/app/main.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/app/main.c
+CMakeFiles/qkeysys.dir/src/app/main.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/qkeysys.dir/src/app/main.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/app/main.c.obj -MF CMakeFiles\qkeysys.dir\src\app\main.c.obj.d -o CMakeFiles\qkeysys.dir\src\app\main.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\app\main.c"
+
+CMakeFiles/qkeysys.dir/src/app/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/app/main.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\app\main.c" > CMakeFiles\qkeysys.dir\src\app\main.c.i
+
+CMakeFiles/qkeysys.dir/src/app/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/app/main.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\app\main.c" -o CMakeFiles\qkeysys.dir\src\app\main.c.s
+
+CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/comm/usrp/usrp.c
+CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj -MF CMakeFiles\qkeysys.dir\src\comm\usrp\usrp.c.obj.d -o CMakeFiles\qkeysys.dir\src\comm\usrp\usrp.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\usrp\usrp.c"
+
+CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\usrp\usrp.c" > CMakeFiles\qkeysys.dir\src\comm\usrp\usrp.c.i
+
+CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\usrp\usrp.c" -o CMakeFiles\qkeysys.dir\src\comm\usrp\usrp.c.s
+
+CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/comm/zigbee/zigbee.c
+CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj -MF CMakeFiles\qkeysys.dir\src\comm\zigbee\zigbee.c.obj.d -o CMakeFiles\qkeysys.dir\src\comm\zigbee\zigbee.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\zigbee\zigbee.c"
+
+CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\zigbee\zigbee.c" > CMakeFiles\qkeysys.dir\src\comm\zigbee\zigbee.c.i
+
+CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\zigbee\zigbee.c" -o CMakeFiles\qkeysys.dir\src\comm\zigbee\zigbee.c.s
+
 CMakeFiles/qkeysys.dir/src/core/config.c.obj: CMakeFiles/qkeysys.dir/flags.make
 CMakeFiles/qkeysys.dir/src/core/config.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
 CMakeFiles/qkeysys.dir/src/core/config.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/config.c
 CMakeFiles/qkeysys.dir/src/core/config.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/qkeysys.dir/src/core/config.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/qkeysys.dir/src/core/config.c.obj"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/config.c.obj -MF CMakeFiles\qkeysys.dir\src\core\config.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\config.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\config.c"
 
 CMakeFiles/qkeysys.dir/src/core/config.c.i: cmake_force
@@ -86,71 +131,11 @@ CMakeFiles/qkeysys.dir/src/core/config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/config.c.s"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\config.c" -o CMakeFiles\qkeysys.dir\src\core\config.c.s
 
-CMakeFiles/qkeysys.dir/src/core/log.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/core/log.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/core/log.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/log.c
-CMakeFiles/qkeysys.dir/src/core/log.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/qkeysys.dir/src/core/log.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/log.c.obj -MF CMakeFiles\qkeysys.dir\src\core\log.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\log.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\log.c"
-
-CMakeFiles/qkeysys.dir/src/core/log.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/core/log.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\log.c" > CMakeFiles\qkeysys.dir\src\core\log.c.i
-
-CMakeFiles/qkeysys.dir/src/core/log.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/log.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\log.c" -o CMakeFiles\qkeysys.dir\src\core\log.c.s
-
-CMakeFiles/qkeysys.dir/src/core/os.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/core/os.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/core/os.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/os.c
-CMakeFiles/qkeysys.dir/src/core/os.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/qkeysys.dir/src/core/os.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/os.c.obj -MF CMakeFiles\qkeysys.dir\src\core\os.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\os.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\os.c"
-
-CMakeFiles/qkeysys.dir/src/core/os.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/core/os.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\os.c" > CMakeFiles\qkeysys.dir\src\core\os.c.i
-
-CMakeFiles/qkeysys.dir/src/core/os.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/os.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\os.c" -o CMakeFiles\qkeysys.dir\src\core\os.c.s
-
-CMakeFiles/qkeysys.dir/src/core/queue.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/core/queue.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/core/queue.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/queue.c
-CMakeFiles/qkeysys.dir/src/core/queue.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/qkeysys.dir/src/core/queue.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/queue.c.obj -MF CMakeFiles\qkeysys.dir\src\core\queue.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\queue.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\queue.c"
-
-CMakeFiles/qkeysys.dir/src/core/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/core/queue.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\queue.c" > CMakeFiles\qkeysys.dir\src\core\queue.c.i
-
-CMakeFiles/qkeysys.dir/src/core/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/queue.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\queue.c" -o CMakeFiles\qkeysys.dir\src\core\queue.c.s
-
-CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/scheduler.c
-CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj -MF CMakeFiles\qkeysys.dir\src\core\scheduler.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\scheduler.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\scheduler.c"
-
-CMakeFiles/qkeysys.dir/src/core/scheduler.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/core/scheduler.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\scheduler.c" > CMakeFiles\qkeysys.dir\src\core\scheduler.c.i
-
-CMakeFiles/qkeysys.dir/src/core/scheduler.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/scheduler.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\scheduler.c" -o CMakeFiles\qkeysys.dir\src\core\scheduler.c.s
-
 CMakeFiles/qkeysys.dir/src/core/exec.c.obj: CMakeFiles/qkeysys.dir/flags.make
 CMakeFiles/qkeysys.dir/src/core/exec.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
 CMakeFiles/qkeysys.dir/src/core/exec.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/exec.c
 CMakeFiles/qkeysys.dir/src/core/exec.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/qkeysys.dir/src/core/exec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/qkeysys.dir/src/core/exec.c.obj"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/exec.c.obj -MF CMakeFiles\qkeysys.dir\src\core\exec.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\exec.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\exec.c"
 
 CMakeFiles/qkeysys.dir/src/core/exec.c.i: cmake_force
@@ -165,7 +150,7 @@ CMakeFiles/qkeysys.dir/src/core/init_master.c.obj: CMakeFiles/qkeysys.dir/flags.
 CMakeFiles/qkeysys.dir/src/core/init_master.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
 CMakeFiles/qkeysys.dir/src/core/init_master.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/init_master.c
 CMakeFiles/qkeysys.dir/src/core/init_master.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/qkeysys.dir/src/core/init_master.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/qkeysys.dir/src/core/init_master.c.obj"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/init_master.c.obj -MF CMakeFiles\qkeysys.dir\src\core\init_master.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\init_master.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\init_master.c"
 
 CMakeFiles/qkeysys.dir/src/core/init_master.c.i: cmake_force
@@ -180,7 +165,7 @@ CMakeFiles/qkeysys.dir/src/core/init_slave.c.obj: CMakeFiles/qkeysys.dir/flags.m
 CMakeFiles/qkeysys.dir/src/core/init_slave.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
 CMakeFiles/qkeysys.dir/src/core/init_slave.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/init_slave.c
 CMakeFiles/qkeysys.dir/src/core/init_slave.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/qkeysys.dir/src/core/init_slave.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/qkeysys.dir/src/core/init_slave.c.obj"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/init_slave.c.obj -MF CMakeFiles\qkeysys.dir\src\core\init_slave.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\init_slave.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\init_slave.c"
 
 CMakeFiles/qkeysys.dir/src/core/init_slave.c.i: cmake_force
@@ -195,7 +180,7 @@ CMakeFiles/qkeysys.dir/src/core/inject.c.obj: CMakeFiles/qkeysys.dir/flags.make
 CMakeFiles/qkeysys.dir/src/core/inject.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
 CMakeFiles/qkeysys.dir/src/core/inject.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/inject.c
 CMakeFiles/qkeysys.dir/src/core/inject.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/qkeysys.dir/src/core/inject.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/qkeysys.dir/src/core/inject.c.obj"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/inject.c.obj -MF CMakeFiles\qkeysys.dir\src\core\inject.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\inject.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\inject.c"
 
 CMakeFiles/qkeysys.dir/src/core/inject.c.i: cmake_force
@@ -206,41 +191,71 @@ CMakeFiles/qkeysys.dir/src/core/inject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/inject.c.s"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\inject.c" -o CMakeFiles\qkeysys.dir\src\core\inject.c.s
 
-CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/comm/zigbee/zigbee.c
-CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj -MF CMakeFiles\qkeysys.dir\src\comm\zigbee\zigbee.c.obj.d -o CMakeFiles\qkeysys.dir\src\comm\zigbee\zigbee.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\zigbee\zigbee.c"
+CMakeFiles/qkeysys.dir/src/core/log.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/core/log.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/core/log.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/log.c
+CMakeFiles/qkeysys.dir/src/core/log.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/qkeysys.dir/src/core/log.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/log.c.obj -MF CMakeFiles\qkeysys.dir\src\core\log.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\log.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\log.c"
 
-CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\zigbee\zigbee.c" > CMakeFiles\qkeysys.dir\src\comm\zigbee\zigbee.c.i
+CMakeFiles/qkeysys.dir/src/core/log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/core/log.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\log.c" > CMakeFiles\qkeysys.dir\src\core\log.c.i
 
-CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\zigbee\zigbee.c" -o CMakeFiles\qkeysys.dir\src\comm\zigbee\zigbee.c.s
+CMakeFiles/qkeysys.dir/src/core/log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/log.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\log.c" -o CMakeFiles\qkeysys.dir\src\core\log.c.s
 
-CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/comm/usrp/usrp.c
-CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj -MF CMakeFiles\qkeysys.dir\src\comm\usrp\usrp.c.obj.d -o CMakeFiles\qkeysys.dir\src\comm\usrp\usrp.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\usrp\usrp.c"
+CMakeFiles/qkeysys.dir/src/core/os.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/core/os.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/core/os.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/os.c
+CMakeFiles/qkeysys.dir/src/core/os.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/qkeysys.dir/src/core/os.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/os.c.obj -MF CMakeFiles\qkeysys.dir\src\core\os.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\os.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\os.c"
 
-CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\usrp\usrp.c" > CMakeFiles\qkeysys.dir\src\comm\usrp\usrp.c.i
+CMakeFiles/qkeysys.dir/src/core/os.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/core/os.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\os.c" > CMakeFiles\qkeysys.dir\src\core\os.c.i
 
-CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\comm\usrp\usrp.c" -o CMakeFiles\qkeysys.dir\src\comm\usrp\usrp.c.s
+CMakeFiles/qkeysys.dir/src/core/os.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/os.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\os.c" -o CMakeFiles\qkeysys.dir\src\core\os.c.s
+
+CMakeFiles/qkeysys.dir/src/core/queue.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/core/queue.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/core/queue.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/queue.c
+CMakeFiles/qkeysys.dir/src/core/queue.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/qkeysys.dir/src/core/queue.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/queue.c.obj -MF CMakeFiles\qkeysys.dir\src\core\queue.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\queue.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\queue.c"
+
+CMakeFiles/qkeysys.dir/src/core/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/core/queue.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\queue.c" > CMakeFiles\qkeysys.dir\src\core\queue.c.i
+
+CMakeFiles/qkeysys.dir/src/core/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/queue.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\queue.c" -o CMakeFiles\qkeysys.dir\src\core\queue.c.s
+
+CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/core/scheduler.c
+CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj -MF CMakeFiles\qkeysys.dir\src\core\scheduler.c.obj.d -o CMakeFiles\qkeysys.dir\src\core\scheduler.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\scheduler.c"
+
+CMakeFiles/qkeysys.dir/src/core/scheduler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/core/scheduler.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\scheduler.c" > CMakeFiles\qkeysys.dir\src\core\scheduler.c.i
+
+CMakeFiles/qkeysys.dir/src/core/scheduler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/core/scheduler.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\core\scheduler.c" -o CMakeFiles\qkeysys.dir\src\core\scheduler.c.s
 
 CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.obj: CMakeFiles/qkeysys.dir/flags.make
 CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
 CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/auth/auth.c
 CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.obj"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\auth\auth.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\auth\auth.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\auth\auth.c"
 
 CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.i: cmake_force
@@ -250,21 +265,6 @@ CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.i: cmake_force
 CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.s"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\auth\auth.c" -o CMakeFiles\qkeysys.dir\src\modules\auth\auth.c.s
-
-CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/keypool.c
-CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\keypool.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\keypool.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\keypool.c"
-
-CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\keypool.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\keypool.c.i
-
-CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\keypool.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\keypool.c.s
 
 CMakeFiles/qkeysys.dir/src/modules/clocksync/clocksync.c.obj: CMakeFiles/qkeysys.dir/flags.make
 CMakeFiles/qkeysys.dir/src/modules/clocksync/clocksync.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
@@ -311,95 +311,95 @@ CMakeFiles/qkeysys.dir/src/modules/keydist/keydist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keydist/keydist.c.s"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keydist\keydist.c" -o CMakeFiles\qkeysys.dir\src\modules\keydist\keydist.c.s
 
-CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/scheduler_thread.c
-CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\scheduler_thread.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\scheduler_thread.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\scheduler_thread.c"
+CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/GatewayComm.c
+CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\GatewayComm.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\GatewayComm.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\GatewayComm.c"
 
-CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\scheduler_thread.c" > CMakeFiles\qkeysys.dir\src\threads\scheduler_thread.c.i
+CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\GatewayComm.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\GatewayComm.c.i
 
-CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\scheduler_thread.c" -o CMakeFiles\qkeysys.dir\src\threads\scheduler_thread.c.s
+CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\GatewayComm.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\GatewayComm.c.s
 
-CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/init_master_mgr.c
-CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\init_master_mgr.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\init_master_mgr.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\init_master_mgr.c"
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/KeyConfig.c
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\KeyConfig.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyConfig.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyConfig.c"
 
-CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\init_master_mgr.c" > CMakeFiles\qkeysys.dir\src\threads\init_master_mgr.c.i
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyConfig.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\KeyConfig.c.i
 
-CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\init_master_mgr.c" -o CMakeFiles\qkeysys.dir\src\threads\init_master_mgr.c.s
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyConfig.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyConfig.c.s
 
-CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/zigbee_listener.c
-CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\zigbee_listener.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\zigbee_listener.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\zigbee_listener.c"
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/KeyInfo.c
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\KeyInfo.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyInfo.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyInfo.c"
 
-CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\zigbee_listener.c" > CMakeFiles\qkeysys.dir\src\threads\zigbee_listener.c.i
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyInfo.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\KeyInfo.c.i
 
-CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\zigbee_listener.c" -o CMakeFiles\qkeysys.dir\src\threads\zigbee_listener.c.s
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyInfo.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyInfo.c.s
 
-CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/clock_thread.c
-CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\clock_thread.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\clock_thread.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\clock_thread.c"
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/KeyManager.c
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\KeyManager.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyManager.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyManager.c"
 
-CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\clock_thread.c" > CMakeFiles\qkeysys.dir\src\threads\clock_thread.c.i
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyManager.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\KeyManager.c.i
 
-CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\clock_thread.c" -o CMakeFiles\qkeysys.dir\src\threads\clock_thread.c.s
+CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyManager.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyManager.c.s
 
-CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/storage_listener.c
-CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\storage_listener.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\storage_listener.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\storage_listener.c"
+CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/NTPClient.c
+CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\NTPClient.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\NTPClient.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\NTPClient.c"
 
-CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\storage_listener.c" > CMakeFiles\qkeysys.dir\src\threads\storage_listener.c.i
+CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\NTPClient.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\NTPClient.c.i
 
-CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\storage_listener.c" -o CMakeFiles\qkeysys.dir\src\threads\storage_listener.c.s
+CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\NTPClient.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\NTPClient.c.s
 
-CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/threads_all.c
-CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\threads_all.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\threads_all.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\threads_all.c"
+CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/keypool.c
+CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\keypool.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\keypool.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\keypool.c"
 
-CMakeFiles/qkeysys.dir/src/threads/threads_all.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/threads_all.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\threads_all.c" > CMakeFiles\qkeysys.dir\src\threads\threads_all.c.i
+CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\keypool.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\keypool.c.i
 
-CMakeFiles/qkeysys.dir/src/threads/threads_all.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/threads_all.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\threads_all.c" -o CMakeFiles\qkeysys.dir\src\threads\threads_all.c.s
+CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\keypool.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\keypool.c.s
 
 CMakeFiles/qkeysys.dir/src/sim/injector.c.obj: CMakeFiles/qkeysys.dir/flags.make
 CMakeFiles/qkeysys.dir/src/sim/injector.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
@@ -416,146 +416,163 @@ CMakeFiles/qkeysys.dir/src/sim/injector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/sim/injector.c.s"
 	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\sim\injector.c" -o CMakeFiles\qkeysys.dir\src\sim\injector.c.s
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/GatewayComm.c
-CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\GatewayComm.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\GatewayComm.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\GatewayComm.c"
+CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/clock_thread.c
+CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\clock_thread.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\clock_thread.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\clock_thread.c"
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\GatewayComm.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\GatewayComm.c.i
+CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\clock_thread.c" > CMakeFiles\qkeysys.dir\src\threads\clock_thread.c.i
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\GatewayComm.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\GatewayComm.c.s
+CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\clock_thread.c" -o CMakeFiles\qkeysys.dir\src\threads\clock_thread.c.s
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/KeyConfig.c
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\KeyConfig.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyConfig.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyConfig.c"
+CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/init_master_mgr.c
+CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\init_master_mgr.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\init_master_mgr.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\init_master_mgr.c"
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyConfig.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\KeyConfig.c.i
+CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\init_master_mgr.c" > CMakeFiles\qkeysys.dir\src\threads\init_master_mgr.c.i
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyConfig.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyConfig.c.s
+CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\init_master_mgr.c" -o CMakeFiles\qkeysys.dir\src\threads\init_master_mgr.c.s
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/KeyInfo.c
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\KeyInfo.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyInfo.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyInfo.c"
+CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/scheduler_thread.c
+CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\scheduler_thread.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\scheduler_thread.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\scheduler_thread.c"
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyInfo.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\KeyInfo.c.i
+CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\scheduler_thread.c" > CMakeFiles\qkeysys.dir\src\threads\scheduler_thread.c.i
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyInfo.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyInfo.c.s
+CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\scheduler_thread.c" -o CMakeFiles\qkeysys.dir\src\threads\scheduler_thread.c.s
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/KeyManager.c
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\KeyManager.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyManager.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyManager.c"
+CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/storage_listener.c
+CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\storage_listener.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\storage_listener.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\storage_listener.c"
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyManager.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\KeyManager.c.i
+CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\storage_listener.c" > CMakeFiles\qkeysys.dir\src\threads\storage_listener.c.i
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\KeyManager.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\KeyManager.c.s
+CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\storage_listener.c" -o CMakeFiles\qkeysys.dir\src\threads\storage_listener.c.s
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj: CMakeFiles/qkeysys.dir/flags.make
-CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
-CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/modules/keypool/NTPClient.c
-CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj -MF CMakeFiles\qkeysys.dir\src\modules\keypool\NTPClient.c.obj.d -o CMakeFiles\qkeysys.dir\src\modules\keypool\NTPClient.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\NTPClient.c"
+CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/threads_all.c
+CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\threads_all.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\threads_all.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\threads_all.c"
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.i"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\NTPClient.c" > CMakeFiles\qkeysys.dir\src\modules\keypool\NTPClient.c.i
+CMakeFiles/qkeysys.dir/src/threads/threads_all.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/threads_all.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\threads_all.c" > CMakeFiles\qkeysys.dir\src\threads\threads_all.c.i
 
-CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.s"
-	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\modules\keypool\NTPClient.c" -o CMakeFiles\qkeysys.dir\src\modules\keypool\NTPClient.c.s
+CMakeFiles/qkeysys.dir/src/threads/threads_all.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/threads_all.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\threads_all.c" -o CMakeFiles\qkeysys.dir\src\threads\threads_all.c.s
+
+CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj: CMakeFiles/qkeysys.dir/flags.make
+CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj: CMakeFiles/qkeysys.dir/includes_C.rsp
+CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj: D:/deskcopy/SEU\ docs/project/raspberry/QKeySys/src/threads/zigbee_listener.c
+CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj: CMakeFiles/qkeysys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj -MF CMakeFiles\qkeysys.dir\src\threads\zigbee_listener.c.obj.d -o CMakeFiles\qkeysys.dir\src\threads\zigbee_listener.c.obj -c "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\zigbee_listener.c"
+
+CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.i"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\zigbee_listener.c" > CMakeFiles\qkeysys.dir\src\threads\zigbee_listener.c.i
+
+CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.s"
+	C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\deskcopy\SEU docs\project\raspberry\QKeySys\src\threads\zigbee_listener.c" -o CMakeFiles\qkeysys.dir\src\threads\zigbee_listener.c.s
 
 # Object files for target qkeysys
 qkeysys_OBJECTS = \
+"CMakeFiles/qkeysys.dir/src/app/main.c.obj" \
+"CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj" \
+"CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj" \
 "CMakeFiles/qkeysys.dir/src/core/config.c.obj" \
-"CMakeFiles/qkeysys.dir/src/core/log.c.obj" \
-"CMakeFiles/qkeysys.dir/src/core/os.c.obj" \
-"CMakeFiles/qkeysys.dir/src/core/queue.c.obj" \
-"CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj" \
 "CMakeFiles/qkeysys.dir/src/core/exec.c.obj" \
 "CMakeFiles/qkeysys.dir/src/core/init_master.c.obj" \
 "CMakeFiles/qkeysys.dir/src/core/init_slave.c.obj" \
 "CMakeFiles/qkeysys.dir/src/core/inject.c.obj" \
-"CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj" \
-"CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj" \
+"CMakeFiles/qkeysys.dir/src/core/log.c.obj" \
+"CMakeFiles/qkeysys.dir/src/core/os.c.obj" \
+"CMakeFiles/qkeysys.dir/src/core/queue.c.obj" \
+"CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj" \
 "CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.obj" \
-"CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj" \
 "CMakeFiles/qkeysys.dir/src/modules/clocksync/clocksync.c.obj" \
 "CMakeFiles/qkeysys.dir/src/modules/crypto/crypto.c.obj" \
 "CMakeFiles/qkeysys.dir/src/modules/keydist/keydist.c.obj" \
-"CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj" \
-"CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj" \
-"CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj" \
-"CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj" \
-"CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj" \
-"CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj" \
-"CMakeFiles/qkeysys.dir/src/sim/injector.c.obj" \
 "CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj" \
 "CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj" \
 "CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj" \
 "CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj" \
-"CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj"
+"CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj" \
+"CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj" \
+"CMakeFiles/qkeysys.dir/src/sim/injector.c.obj" \
+"CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj" \
+"CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj" \
+"CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj" \
+"CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj" \
+"CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj" \
+"CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj"
 
 # External object files for target qkeysys
 qkeysys_EXTERNAL_OBJECTS =
 
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/app/main.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/config.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/log.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/os.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/queue.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/exec.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/init_master.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/init_slave.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/inject.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/log.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/os.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/queue.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/core/scheduler.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/auth/auth.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/clocksync/clocksync.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/crypto/crypto.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/keydist/keydist.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj
-libqkeysys.a: CMakeFiles/qkeysys.dir/src/sim/injector.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/keypool/GatewayComm.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/keypool/KeyConfig.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/keypool/KeyInfo.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/keypool/KeyManager.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/keypool/NTPClient.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/modules/keypool/keypool.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/sim/injector.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/clock_thread.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/init_master_mgr.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/scheduler_thread.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/storage_listener.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/threads_all.c.obj
+libqkeysys.a: CMakeFiles/qkeysys.dir/src/threads/zigbee_listener.c.obj
 libqkeysys.a: CMakeFiles/qkeysys.dir/build.make
 libqkeysys.a: CMakeFiles/qkeysys.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Linking C static library libqkeysys.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\deskcopy\SEU docs\project\raspberry\QKeySys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Linking C static library libqkeysys.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\qkeysys.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\qkeysys.dir\link.txt --verbose=$(VERBOSE)
 

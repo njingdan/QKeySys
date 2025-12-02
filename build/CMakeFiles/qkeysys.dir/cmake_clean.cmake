@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/qkeysys.dir/src/app/main.c.obj"
+  "CMakeFiles/qkeysys.dir/src/app/main.c.obj.d"
   "CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj"
   "CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj.d"
   "CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj"

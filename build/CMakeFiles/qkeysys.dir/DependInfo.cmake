@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/deskcopy/SEU docs/project/raspberry/QKeySys/src/app/main.c" "CMakeFiles/qkeysys.dir/src/app/main.c.obj" "gcc" "CMakeFiles/qkeysys.dir/src/app/main.c.obj.d"
   "D:/deskcopy/SEU docs/project/raspberry/QKeySys/src/comm/usrp/usrp.c" "CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj" "gcc" "CMakeFiles/qkeysys.dir/src/comm/usrp/usrp.c.obj.d"
   "D:/deskcopy/SEU docs/project/raspberry/QKeySys/src/comm/zigbee/zigbee.c" "CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj" "gcc" "CMakeFiles/qkeysys.dir/src/comm/zigbee/zigbee.c.obj.d"
   "D:/deskcopy/SEU docs/project/raspberry/QKeySys/src/core/config.c" "CMakeFiles/qkeysys.dir/src/core/config.c.obj" "gcc" "CMakeFiles/qkeysys.dir/src/core/config.c.obj.d"

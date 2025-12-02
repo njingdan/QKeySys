@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.0/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeRCCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
   "D:/softwares/winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64msvcrt-13.0.0-r1/mingw64/share/cmake-4.1/Modules/CMakeCInformation.cmake"
   "D:/softwares/winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64msvcrt-13.0.0-r1/mingw64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake"
   "D:/softwares/winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64msvcrt-13.0.0-r1/mingw64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake"
