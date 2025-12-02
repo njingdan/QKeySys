@@ -19,8 +19,30 @@ file(GLOB_RECURSE QKEYSYS_SOURCES
 # -------------------------- 核心库目标 --------------------------
 add_library(qkeysys ${QKEYSYS_SOURCES})
 
+file(GLOB_RECURSE QKEYSYS_HEADERS
+    CONFIGURE_DEPENDS
+    "include/*.h"
+    "include/*/*.h"
+    "include/*/*/*.h"
+)
 
-target_include_directories(qkeysys PUBLIC include include/modules/keypool)
+# 提取不重复的目录路径
+set(QKEYSYS_INCLUDE_DIRS "")
+foreach(header ${QKEYSYS_HEADERS})
+    get_filename_component(dir ${header} DIRECTORY)
+    list(APPEND QKEYSYS_INCLUDE_DIRS ${dir})
+endforeach()
+list(REMOVE_DUPLICATES QKEYSYS_INCLUDE_DIRS)
+
+
+# 添加所有头文件目录（递归收集到的）
+target_include_directories(qkeysys 
+    PUBLIC 
+        ${QKEYSYS_INCLUDE_DIRS}
+)
+
+# 添加 include 根目录（确保根目录也在搜索路径中）
+target_include_directories(qkeysys PUBLIC include)
 
 if(WIN32)
     target_compile_definitions(qkeysys PRIVATE QKS_OS_WINDOWS)
