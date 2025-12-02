@@ -58,10 +58,17 @@ target_link_libraries(qkeysys_app PRIVATE qkeysys)
 # -------------------------- 新增：测试目标（qkeysys_test）--------------------------
 # 测试代码：就是你之前写的“密钥管理器测试程序”（假设路径是 src/test/key_manager_test.c）
 # 注意：把路径换成你实际的测试代码路径（比如你之前的 main.c 放在哪里，就写哪里）
-add_executable(qkeysys_test 
+add_executable(key_pool_test 
     test/key_pool_test.c  # 你的测试代码（替换成实际路径）
 )
 
 # 测试目标链接核心库（获取所有模块功能，包括你的密钥管理器）
-target_link_libraries(qkeysys_test PRIVATE qkeysys)
+target_link_libraries(key_pool_test PRIVATE qkeysys)
+
+add_executable(key_manager_test 
+    test/key_manager_test.c  # 你的测试代码（替换成实际路径）
+)
+
+# 测试目标链接核心库（获取所有模块功能，包括你的密钥管理器）
+target_link_libraries(key_manager_test PRIVATE qkeysys)
 
